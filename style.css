@@ -1,0 +1,76 @@
+body{
+    background: palegreen;
+    color:darkslategray;
+    background: ="lime"
+    text="black"
+}
+
+h1{
+    color:darkgreen;
+    text-align: center;
+}
+
+hr {
+    border: none; /* Убираем границу для браузера Firefox */
+    color: darkgreen; /* Цвет линии для остальных браузеров */
+    background-color: darkgreen; /* Цвет линии для браузера Firefox и Opera */
+    height: 2px; /* Толщина линии */
+}
+
+p{
+    text-indent:20px;
+    margin-top: 2em; /* Отступ сверху */
+    margin-bottom: 1em; /* Отступ снизу */
+}
+
+p li{margin-bottom: 10px;
+    
+}
+
+.bold {
+    font-weight:bold;
+}
+
+img {
+    border: 3px solid MediumSpringGreen;
+}
+.img {
+    text-align: center; /* Выравнивание по центру */ 
+}
+
+
+header ul {
+  list-style: none; /*убираем маркеры списка*/
+  margin: 0; /*убираем отступы*/
+  padding-left: 0; /*убираем отступы*/
+  margin-top:25px; /*делаем отступ сверху*/
+  background:SpringGreen; /*добавляем фон всему меню (заменив этот параметр, вы поменяете цвет всего меню)*/
+  height: 50px; /*задаем высоту*/
+}
+
+header a {
+  text-decoration: none; /*убираем подчеркивание текста ссылок*/
+  background:SpringGreen; /*добавляем фон к пункту меню (заменив этот параметр, вы поменяете цвет всех пунктов меню)*/
+  color:darkgreen; /*меняем цвет ссылок*/
+  padding:0px 15px; /*добавляем отступ*/
+  font-family: arial; /*меняем шрифт*/
+  line-height:50px; /*ровняем меню по вертикали*/
+  display: block; 
+  border-right: 1px solid darkgreen; /*добавляем бордюр справа*/
+  -moz-transition: all 0.3s 0.01s ease; /*делаем плавный переход*/
+  -o-transition: all 0.3s 0.01s ease;
+  -webkit-transition: all 0.3s 0.01s ease;
+}
+
+header a:hover {
+  background:MediumSeaGreen;/*добавляем эффект при наведении*/
+}
+
+header li {
+  float:left; /*Размещаем список горизонтально для реализации меню*/
+}
+
+.text a {
+    text-decoration: none;
+    color:darkgreen; /*меняем цвет ссылок*/
+}
